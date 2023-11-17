@@ -1,0 +1,16 @@
+.header {
+    padding: 0;
+    margin: 0;
+    background-color: blanchedalmond;
+
+}
+
+.header__menu {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu li+li {
+    padding-left: 10px;
+}
